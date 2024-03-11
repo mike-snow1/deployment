@@ -119,7 +119,7 @@ class OptimalPackingFinder(object):
         
         plt.show()
 
-    def predict(self, X):  # change from get-predictions to predict
+    def predict(self, X, features_names=None):  # change from get-predictions to predict
         """
         :Output: JSON output from API
         :param review_information: dictionary/json of review information
